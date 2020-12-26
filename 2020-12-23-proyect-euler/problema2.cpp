@@ -12,7 +12,7 @@ int main (void)
    while (an<=4000000)
     {
       an=a1+a0;
-      //std::cout<<an<<"\n";
+      std::cout<<an<<"\n";
       if (an%2==0)
 	{
 	  suma+=an;
